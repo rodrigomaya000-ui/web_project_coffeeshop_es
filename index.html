@@ -44,7 +44,113 @@
         <div class="info-text">Avenida del Éxito 200, Ciudad Triple Peaks</div>
       </div>
     </header>
-    <main class="content"></main>
-    <footer class="footer"></footer>
+    <main class="content">
+      <section class="reservation" id="reservar">
+        <h2 class="reservation__title">Reservar una mesa</h2>
+        <form class="form" action="/reservar_una_mesa" method="get">
+          <div class="fieldset">
+            <label class="form__label" for="name">Nombre *</label>
+            <input
+              class="form__input"
+              type="text"
+              id="name"
+              required
+              placeholder="Nombre"
+            />
+
+            <label class="form__label" for="number"
+              >Numero de numero comensales *</label
+            >
+            <input
+              class="form__input"
+              type="number"
+              min="1"
+              max="8"
+              id="number"
+              required
+              placeholder="1-8"
+            />
+
+            <label class="form__label" for="fechahora">Fecha y hora *</label>
+            <input
+              class="form__input"
+              type="datetime-local"
+              id="fechahora"
+              required
+            />
+
+            <label class="form__label" for="email"
+              >Tu correo electrónico *</label
+            >
+            <input
+              class="form__input"
+              type="text"
+              id="email"
+              required
+              placeholder="email@email.com"
+            />
+          </div>
+          <div class="form__button">
+            <button class="form__button--summit" type="submit">
+              Reservar una mesa
+            </button>
+          </div>
+          <div class="form__checkbox">
+            <label class="form__label" for="términos">
+              <input
+                type="checkbox"
+                id="términos"
+                class="form__checkbox-input"
+              />
+              Acepto los términos de uso
+            </label>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="footer" id="contacts">
+      <div class="footer__circle"></div>
+      <div class="footer__redes">
+        <img
+          class="footer__logo"
+          src="/images/logo_coffeeshop_light.svg"
+          alt="logo_coffeeshop_light"
+        />
+        <div class="redesSociales">
+          <p class="redesSociales__title">Redes Sociales</p>
+          <ul class="footer__redes--list">
+            <li class="footer__redes--list--item">
+              <img
+                class="footer__redes--list--logo"
+                src="/images/facebook_white.svg"
+                alt="facebook_white"
+              /><a
+                class="footer__redes--list--link"
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Facebook</a
+              >
+            </li>
+            <li class="footer__redes--list--item">
+              <img
+                class="footer__redes--list--logo"
+                src="/images/instagram_white.svg"
+                alt="instagram_white"
+              />
+              <a
+                class="footer__redes--list--link"
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">&copy;2026 | Rodrigo Maya</div>
+    </footer>
   </body>
 </html>

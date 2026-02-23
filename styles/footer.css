@@ -1,0 +1,67 @@
+.footer {
+  position: relative;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 60px 80px;
+  background-color: #d35722;
+  color: #fff;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.footer__circle {
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  position: absolute;
+  top: -128px;
+  left: -4px;
+  background-color: #e96e3a;
+  z-index: 0;
+}
+
+.footer__redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 108px;
+}
+
+.footer__logo {
+  width: 105;
+  height: 39px;
+  z-index: 1;
+}
+
+.redesSociales__title {
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.footer__redes--list {
+  margin: 0;
+}
+
+.footer__redes--list--item {
+  padding-bottom: 16px;
+  list-style: none;
+}
+
+.footer__redes--list--logo {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.footer__redes--list--link {
+  text-decoration: none; /* quita el subrayado */
+  color: inherit; /* hereda el color del contenedor */
+}
+
+.footer__redes--list--link:hover {
+  color: #ffd6c5;
+}
