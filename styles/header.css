@@ -1,7 +1,7 @@
 .header {
   background-color: #ffffff;
   color: #000000;
-  background-image: url("/images/background_header.svg");
+  background-image: url("../images/background_header.svg");
   background-repeat: no-repeat;
   margin: 0 auto;
   background-size: cover;
