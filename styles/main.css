@@ -1,6 +1,6 @@
 .content {
   background-color: #ffd6c5;
-  background-image: url(/images/background_reservation.svg);
+  background-image: url("/images/background_reservation.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -94,5 +94,5 @@
 
 .form__checkbox-input:checked::after {
   background-color: #e96e3a;
-  background-image: url(/images/check.svg);
+  background-image: url(images/check.svg);
 }
